@@ -1,7 +1,6 @@
 import React from 'react';
 import {Nav, Navbar} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import image from '../../../images/wedding-couple.png'
 import './NavHead.css';
 const NavHead = (props) => {
     return (

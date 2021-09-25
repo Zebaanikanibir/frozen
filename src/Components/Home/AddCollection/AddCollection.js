@@ -23,7 +23,7 @@ const AddCollection = () => {
         formData.append('info', collection.info)
         formData.append('cost', collection.cost)
         formData.append('category', collection.category)
-        fetch('http://localhost:5011/addCollection', {
+        fetch('https://still-hollows-61892.herokuapp.com/addCollection', {
           method: 'POST',
           body: formData
         })

@@ -61,9 +61,6 @@ const Login = () => {
 
     return (
         <div className="App container">
-            {/* <div className="from-group mt-5">
-                <button onClick={handleGoogleSignIn} className="btn btn-brand">Google Sign in</button>
-            </div> */}
             <Container className="mt-5 App login">
             <Card>
               <Card.Body className="cardBody">

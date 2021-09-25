@@ -12,7 +12,7 @@ const Cart = () => {
     const [cartData, setCartData] = useState(null)
     useEffect(() => {
 
-        fetch(`http://localhost:5011/cart/${id}`)
+        fetch(`https://still-hollows-61892.herokuapp.com/cart/${id}`)
             .then(res => res.json())
             .then(data => setCart(data))
 
@@ -22,38 +22,38 @@ const Cart = () => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext)
     const handleCart = (booking) => {
 
-       setCartData(cart)
-       alert('Please Pay')
+        setCartData(cart)
+        alert('Please Pay')
     }
 
 
-const handlePaymentSuccess = paymentId =>{
+    const handlePaymentSuccess = paymentId => {
 
-    console.log('Add Cart', cart)
+        console.log('Add Cart', cart)
 
-    const newCart = { ...loggedInUser, service:cart.name, info:cart.info, cost:cart.cost, paymentId, orderTime: new Date().toDateString('dd/MM/yyyy') }
+        const newCart = { ...loggedInUser, service: cart.name, info: cart.info, cost: cart.cost, paymentId, orderTime: new Date().toDateString('dd/MM/yyyy') }
 
-    console.log(loggedInUser)
-    fetch('http://localhost:5011/addCart', {
-        method: 'POST',
-        headers: {
+        console.log(loggedInUser)
+        fetch('https://still-hollows-61892.herokuapp.com/addCart', {
+            method: 'POST',
+            headers: {
 
-            'Content-Type': 'application/json'
+                'Content-Type': 'application/json'
 
-        },
-        body: JSON.stringify(newCart)
-    })
-        .then(res => res.json())
-        .then(data => {
-
-            if (data) {
-
-                alert('Order confirmed')
-            }
+            },
+            body: JSON.stringify(newCart)
         })
+            .then(res => res.json())
+            .then(data => {
 
-    
-}
+                if (data) {
+
+                    alert('Order confirmed')
+                }
+            })
+
+
+    }
 
     return (
         <section>
@@ -68,7 +68,7 @@ const handlePaymentSuccess = paymentId =>{
                         <h5>{loggedInUser.name}</h5>
                         <h6>You will be charged for ${cart.cost}</h6>
                         <h6>{cart.name}</h6>
-                        <button id="bBtn"  onClick={()=>handleCart(cart)}>Booking</button>
+                        <button id="bBtn" onClick={() => handleCart(cart)}>Booking</button>
                     </div>
                 </div>
                 <div className="col-md-3 mt-5 booking ml-5">

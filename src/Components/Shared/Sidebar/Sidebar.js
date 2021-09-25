@@ -13,7 +13,7 @@ const Sidebar = () => {
 
 
 
-    fetch('http://localhost:5011/isAdmin', {
+    fetch('https://still-hollows-61892.herokuapp.com/isAdmin', {
 
     method:'POST',
     headers:{'content-type':'application/json'},

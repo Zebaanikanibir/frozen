@@ -36,7 +36,7 @@ const Collections = () => {
 
     const [collections, setCollections] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5011/collection')
+        fetch('https://still-hollows-61892.herokuapp.com/collection')
             .then(res => res.json())
             .then(data => setCollections(data))
        

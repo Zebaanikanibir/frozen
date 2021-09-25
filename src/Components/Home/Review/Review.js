@@ -20,7 +20,7 @@ const Review = ({review}) => {
                 
             
             
-            <h3>{review.name}</h3>
+            <h3 className="text-white">{review.name}</h3>
             <p><small className="cInfo">{review.description}</small></p>
             
             

@@ -27,32 +27,8 @@
     color: white;
 }
 
-#btn{
-   
 
-        width: 200px;
-        padding: 15px 0;
-        text-align: center;
-        margin: 20px 10px;
-        border-radius: 25px;
-        font-weight: bold;
-        font-size: 15px;
-        border: 2px solid red;
-        background: darkred;
-        cursor: pointer;
-        color: white;
-        position: relative;
-        overflow: hidden;
-      
-        
-}
-#btn:hover{
-   
 
-   font-size: 20px;
-  
-    
-}
 .cInfo{
 font-size: 15px;
 font-weight: 700;

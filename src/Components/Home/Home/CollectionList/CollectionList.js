@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import Sidebar from '../../../Shared/Sidebar/Sidebar';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTrashAlt } from '@fortawesome/free-solid-svg-icons'
 import { Button } from 'react-bootstrap'
 import './CollectionList.css';
 const CollectionList = () => {
@@ -13,7 +11,7 @@ const CollectionList = () => {
 
         console.log(id)
 
-        fetch(`http://localhost:5011/delete/${id}`, {
+        fetch(`https://still-hollows-61892.herokuapp.com/delete/${id}`, {
             method: 'DELETE'
 
         })
