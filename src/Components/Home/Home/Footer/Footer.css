@@ -2,10 +2,11 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
+    height:400px;
 }
 
 .footer-box{
-    width: 80%;
+   
     margin: auto;
 }
 

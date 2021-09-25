@@ -1,6 +1,6 @@
 import React from 'react';
 import './OrderDetails.css';
-const BookedDetails = ({order}) => {
+const OrderDetails = ({order}) => {
     return (
         <div className="col-md-6 ">
             <div className="booked">
@@ -11,4 +11,4 @@ const BookedDetails = ({order}) => {
     );
 };
 
-export default BookedDetails;
+export default OrderDetails;

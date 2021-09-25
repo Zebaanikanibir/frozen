@@ -12,7 +12,7 @@ import Cart from './Components/Cart/Cart';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 import { useState } from 'react';
 import ConfirmCart from './Components/ConfirmCart/ConfirmCart';
-import BookingList from './Components/Home/Home/BookingList/BookingList';
+import CollectionList from './Components/Home/Home/CollectionList/CollectionList';
 import AddCollection from './Components/Home/AddCollection/AddCollection';
 import Dashboard from './Components/Dashboard/Dashboard';
 import AddReview from './Components/Home/AddReview/AddReview';
@@ -57,8 +57,8 @@ function App() {
           <PrivateRoute  path="/confirmCart">
             <ConfirmCart />
           </PrivateRoute>
-          <PrivateRoute  path="/bookingList">
-            <BookingList />
+          <PrivateRoute  path="/collectionList">
+            <CollectionList />
           </PrivateRoute>
            
     </Router>

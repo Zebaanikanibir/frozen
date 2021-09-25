@@ -17,6 +17,7 @@ const NavHead = (props) => {
             <Link className="nav-link mr-5 ms-5 text-white" to="/home">Home</Link>
             <Link className="nav-link mr-5 ms-5 text-white " to="/login">Login</Link>
             <Link className="nav-link mr-5  ms-5 text-white" to="/dashboard">Dashboard</Link>
+            <Link className="nav-link mr-5  ms-5 text-white" to="/confirmCart">Order</Link>
             <Link className="nav-link mr-5  ms-5 text-white" to="#">Contact Us</Link>
             <Link className="nav-link mr-5  ms-5 text-white" to="#"></Link>
             </Nav>

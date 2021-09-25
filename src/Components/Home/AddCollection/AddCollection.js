@@ -48,7 +48,7 @@ const AddCollection = () => {
                 <Sidebar></Sidebar>
              </div>
              <div className="col-md-9">
-             <h3 className="head3">Add Collection</h3>
+             <h3 className="review-head">Add Collection</h3>
             <form onSubmit={handleSubmit}>
                         <div class="form-group">
                             

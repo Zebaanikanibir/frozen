@@ -9,7 +9,7 @@ const Cart = () => {
     const { id } = useParams();
     console.log(id)
     const [cart, setCart] = useState({})
-    const [CartData, setCartData] = useState(null)
+    const [cartData, setCartData] = useState(null)
     useEffect(() => {
 
         fetch(`http://localhost:5011/cart/${id}`)

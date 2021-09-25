@@ -25,21 +25,24 @@ const Footer = () => {
             <FontAwesomeIcon className="text-white icon ml-2" icon={faTwitter} />
             </div>
             </div>
-            <div className="footer-box">
-            <h2 className="text-white head2">Why Choose Us?</h2>
-             <h3 className="text-white">HIGH QUALITY SERVICES</h3>
-             <h6 className="text-white">We work with clients big and small across a range of sectors and we utilise all forms of media.</h6>
-            </div>
-            
            
-            
-            <div className="footer-box mt-5">
+            <div className="footer-box">
             <h2 className="text-white head2">Get In Touch</h2>
             <h6 className="text-white head2">MOTO Business Agency Highroad 141, LA City Venice Beach 64713</h6>
             <h6 className="text-white"> <FontAwesomeIcon className="icon " icon={faPhone} /> +49 123475914
             +49 123475915</h6>
             <h6 className="text-white">nibir@gmail@email.com</h6>
             </div>
+           
+            <div className="footer-box">
+            <h2 className="text-white head2">Why Choose Us?</h2>
+             <h3 className="text-white">HIGH QUALITY SERVICES</h3>
+             <h6 className="text-white">We work with clients big and small across a range of sectors and we utilise all forms of media.</h6>
+             <div>
+           
+            </div>
+            </div>
+            
         </footer>
     );
 };

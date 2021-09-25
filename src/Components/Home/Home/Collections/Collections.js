@@ -39,7 +39,7 @@ const Collections = () => {
         fetch('http://localhost:5011/collection')
             .then(res => res.json())
             .then(data => setCollections(data))
-        console.log('collections', collections)
+       
     }, [])
     console.log('collections2', collections)
     return (
@@ -60,7 +60,11 @@ const Collections = () => {
 
 
                     <div id="collection-slide-wrapper" >
-                        <button onClick={handleLeft} id="slideLeft">left</button>
+                        <svg onClick={handleLeft} style={{ width: '30px', color: "yellow" }} xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                        </svg>
+
+
 
                         <div id="slider">
                             {
@@ -68,7 +72,10 @@ const Collections = () => {
                             }
                         </div>
 
-                        <button onClick={handleRight} id="slideRight" >right</button>
+
+                        <svg style={{ width: '30px', color: "yellow" }} onClick={handleRight} xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                        </svg>
                     </div>
                 </div>
 

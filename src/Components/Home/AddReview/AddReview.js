@@ -51,7 +51,7 @@ const AddReview = () => {
             <Sidebar></Sidebar>
          </div>
          <div className="col-md-9">
-         <h3 className="head3">Add Services</h3>
+         <h3 className="review-head">Add Review</h3>
         <form onSubmit={handleSubmit}>
                     <div class="form-group">
                         

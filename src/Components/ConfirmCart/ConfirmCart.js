@@ -11,7 +11,7 @@ const ConfirmCart = () => {
     const [confirmCart, setConfirmCart] = useState([])
     console.log('confirmed', confirmCart)
     useEffect(() => {
-        fetch('https://calm-reaches-86971.herokuapp.com/booking?email=' + loggedInUser.email)
+        fetch('http://localhost:5011/cart?email=' + loggedInUser.email)
             .then(res => res.json())
             .then(data => setConfirmCart(data))
 

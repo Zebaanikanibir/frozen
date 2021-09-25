@@ -13,7 +13,7 @@ const Sidebar = () => {
 
 
 
-    fetch('https://calm-reaches-86971.herokuapp.com/isAdmin', {
+    fetch('http://localhost:5011/isAdmin', {
 
     method:'POST',
     headers:{'content-type':'application/json'},
@@ -45,16 +45,16 @@ const Sidebar = () => {
                     
                 </li>
                 <li>
-                    <Link to="/addServices" className="text-white d-flex">
+                    <Link to="/addCollection" className="text-white d-flex">
                     <FontAwesomeIcon icon={faPlus} />
-                        <span>Add Services</span>
+                        <span>Add Collection</span>
                     </Link>
                 </li>
         
                 <li>
-                    <Link to="/bookingList" className="text-white d-flex" >
+                    <Link to="/collectionList" className="text-white d-flex" >
                     <FontAwesomeIcon icon={faFilePdf} />
-                       <span>Manage Service</span>
+                       <span>Manage Collection</span>
                     </Link>
                 </li>
                 <li>
@@ -68,9 +68,9 @@ const Sidebar = () => {
 
 
                     <div>
-                    <Link to="/booked" className="text-white d-flex">
+                    <Link to="/confirmCart" className="text-white d-flex">
                     <FontAwesomeIcon icon={faFilePdf} />
-                        <span>Your Booking</span> 
+                        <span>Your Order</span> 
                     </Link>
                     </div>
 

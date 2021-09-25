@@ -16,7 +16,7 @@ const AddAdmin = () => {
         const formData = new FormData()
         formData.append('email', info.email)
         formData.append('name', info.name)
-        fetch('https://calm-reaches-86971.herokuapp.com/addAAdmin', {
+        fetch('http://localhost:5011/addAAdmin', {
           method: 'POST',
           body: formData
         })
@@ -37,17 +37,17 @@ const AddAdmin = () => {
                     <Sidebar></Sidebar>
                 </div>
                 <div className="col-md-10 mt-5 p-4">
-                    <h3 className="text-brand head3">Add a Doctor</h3>
+                    <h3 className="text-brand adminhead">Add a Admin</h3>
 
                     <form onSubmit={handleSubmit}>
-                        <div class="form-group">
+                        <div className="form-group">
                             
                             <label for="exampleInputEmail1">Email address</label>
-                            <input onBlur={handleBlur} type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
+                            <input onBlur={handleBlur} type="email" className="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
                         </div>
                         <div class="form-group">
                             <label for="exampleInputPassword1">Name</label>
-                            <input onBlur={handleBlur} type="text" class="form-control" id="exampleInputPassword1" placeholder="Your name" name="name" />
+                            <input onBlur={handleBlur} type="text" className="form-control input2" id="exampleInputPassword1" placeholder="Your name" name="name" />
                         </div>
                         <button type="submit" className="sPrimary">Submit</button>
                     </form>
