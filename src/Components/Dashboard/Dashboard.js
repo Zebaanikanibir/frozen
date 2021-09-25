@@ -12,6 +12,11 @@ const Dashboard = () => {
              </div>
                 <div className="col-md-10">
                   <h1 className="review-head">Welcome to the Dashboard</h1>
+
+                  <p>Admin maintain the site</p>
+                  <h3 className="review-head">Admin</h3>
+                  <h6>1.zaniknanibir@gmail.com</h6>
+                  <h6>2.work.axactstudios@gmail.com</h6>
                 </div>
             </div>
         </section>
