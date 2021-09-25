@@ -22,8 +22,10 @@ const Collection = ({ collection }) => {
             
             
             <img id="serviceImg" src={`data:image/png;base64, ${collection.image.img}`} alt="" />
-            <h6>{collection.name}</h6>
+            <div className="coll-line">
+            <h6 className="text-white">{collection.name}</h6>
                 <button className="addCart" onClick={()=>handleCart(collection._id)}>Add To Cart</button>
+            </div>
            
             
 

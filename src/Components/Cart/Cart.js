@@ -63,6 +63,9 @@ const Cart = () => {
                 </div>
 
                 <div className="col-md-5 mt-5 booking">
+                    
+                <h2 className="review-head">Your Shopping Details</h2>
+                    
                     <div style={{ width: '30rem' }}>
                         <h5>{loggedInUser.email}</h5>
                         <h5>{loggedInUser.name}</h5>
@@ -72,7 +75,7 @@ const Cart = () => {
                     </div>
                 </div>
                 <div className="col-md-3 mt-5 booking ml-5">
-                    <h2>Pay for me</h2>
+                    <h2 className="review-head">Pay for me</h2>
                     <ProcessPayment handlePayment={handlePaymentSuccess}></ProcessPayment>
                 </div>
             </div>

@@ -25,9 +25,13 @@
     background-color: goldenrod;
     border-radius: 20px;
     color: white;
+    
 }
 
-
+.coll-line{
+    margin: auto;
+    text-align: center;
+}
 
 .cInfo{
 font-size: 15px;

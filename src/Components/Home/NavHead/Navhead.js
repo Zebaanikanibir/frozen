@@ -1,12 +1,13 @@
 import React from 'react';
 import {Nav, Navbar} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import image from '../../../images/girls_PNG6486.png';
 import './NavHead.css';
 const NavHead = (props) => {
     return (
         <div>
             <Navbar id="navbar" expand="lg" sticky="top">
-            <Navbar.Brand className="text-white align-items-center" href="#home" ><span id="brand">FROZEN</span> </Navbar.Brand>
+            <Navbar.Brand className="text-white align-items-center" href="#home" ><span id="brand">FR<span className="head-letter">O</span>ZEN</span> <img style={{width:'20%'}} src={image} alt="" /> </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">

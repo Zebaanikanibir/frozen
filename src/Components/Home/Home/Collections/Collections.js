@@ -48,8 +48,8 @@ const Collections = () => {
             {
                 collections.length === 0 &&
                 (
-                    <div>
-                        <Spinner animation="border" variant="secondary" />
+                    <div className="spinner">
+                        <Spinner animation="border" variant="warning" />
                     </div>
                 )
             }

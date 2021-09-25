@@ -7,6 +7,14 @@
     color:white;
 }
 #brand{
-    
-font-size: 25px;
+    font-weight: 700;
+font-size: 30px;
+}
+.navbar-toggler-icon{
+    color: white;
+}
+.head-letter{
+    font-size: 50px;
+    color: hotpink;
+    font-weight: 800;
 }

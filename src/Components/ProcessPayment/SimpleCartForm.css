@@ -1,0 +1,9 @@
+#payBtn{
+    border: none;
+  width: 120px;
+  height: 40px;
+  background-image: linear-gradient(to right, darkblue , rgb(2, 2, 31));
+  border-radius: 20px;
+  color: white;
+  font-size: 20px;
+}
