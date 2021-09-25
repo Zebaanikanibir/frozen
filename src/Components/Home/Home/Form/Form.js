@@ -3,8 +3,7 @@ import './Form.css'
 const Form = () => {
     return (
         <section className="form1 App">
-            <h1 className="text-white head1">Contact Us</h1>
-            <p className="text-white" >..........💑..........</p>
+            <h1 className="text-white review-head">Contact Us</h1>
             <p className="text-white">We Are Open 24/7.You Can Connect With Us At Any time </p>
             <form className="container ">
                         <div className="d-flex">

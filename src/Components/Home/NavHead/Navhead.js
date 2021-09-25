@@ -7,7 +7,7 @@ const NavHead = (props) => {
     return (
         <div>
             <Navbar id="navbar" expand="lg" sticky="top">
-            <Navbar.Brand className="text-white align-items-center" href="#home" ><span id="brand">DESTINATION WEDDING</span><img id="navImg" src={image} alt=""/> </Navbar.Brand>
+            <Navbar.Brand className="text-white align-items-center" href="#home" ><span id="brand">FROZEN</span> </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
@@ -18,7 +18,7 @@ const NavHead = (props) => {
             <Link className="nav-link mr-5 ms-5 text-white " to="/login">Login</Link>
             <Link className="nav-link mr-5  ms-5 text-white" to="/dashboard">Dashboard</Link>
             <Link className="nav-link mr-5  ms-5 text-white" to="/confirmCart">Order</Link>
-            <Link className="nav-link mr-5  ms-5 text-white" to="#">Contact Us</Link>
+            <Link className="nav-link mr-5  ms-5 text-white" to="/contact">Contact Us</Link>
             <Link className="nav-link mr-5  ms-5 text-white" to="#"></Link>
             </Nav>
             </Navbar.Collapse>

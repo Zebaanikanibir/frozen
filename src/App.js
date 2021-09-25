@@ -17,6 +17,7 @@ import AddCollection from './Components/Home/AddCollection/AddCollection';
 import Dashboard from './Components/Dashboard/Dashboard';
 import AddReview from './Components/Home/AddReview/AddReview';
 import AddAdmin from './Components/Home/Home/AddAdmin/AddAdmin';
+import Form from './Components/Home/Home/Form/Form';
 
 export const UserContext = createContext();
 function App() {
@@ -56,6 +57,9 @@ function App() {
           </Route>
           <PrivateRoute  path="/confirmCart">
             <ConfirmCart />
+          </PrivateRoute>
+          <PrivateRoute  path="/contact">
+            <Form />
           </PrivateRoute>
           <PrivateRoute  path="/collectionList">
             <CollectionList />

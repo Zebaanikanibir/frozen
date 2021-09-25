@@ -1,6 +1,6 @@
 .form1{
 
-    background-image:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)) ,url('../../../../images/flower.jpg'); 
+  background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)) ,url('../../../../images/jordan.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -11,17 +11,12 @@
 }
 #send{
 
-    width: 200px;
-    padding: 15px 0;
-    text-align: center;
-    margin: 20px 10px;
-    border-radius: 25px;
-    font-weight: bold;
-    border: 2px solid red;
-    background: darkred;
-    color: white;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
+  border: none;
+  width: 120px;
+  height: 40px;
+  background-image: linear-gradient(to right, darkblue , rgb(2, 2, 31));
+  border-radius: 20px;
+  color: white;
+  font-size: 20px;
     }
     

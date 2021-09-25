@@ -5,7 +5,11 @@
 }
 .reviews-box{
     margin-top: 100px;
- background-color:rgb(48, 2, 21) ;
+    background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)) ,url('../../../images/tamara.jpg'); 
+    background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ background-attachment: fixed;
 }
 .icon1{
     color: goldenrod;
