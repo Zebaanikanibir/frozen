@@ -1,0 +1,19 @@
+#rImg{
+    width: 150px;
+    height: 160px;
+   
+}
+.reviews-box{
+    margin-top: 100px;
+ background-color:rgb(48, 2, 21) ;
+}
+.icon1{
+    color: goldenrod;
+}
+
+.review-head{
+    padding-top: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    border-bottom: 1px solid gold;
+}

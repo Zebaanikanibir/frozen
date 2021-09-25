@@ -1,0 +1,148 @@
+#serviceImg{
+    width: 200px;
+    height: 250px;
+    transition: transform 2s;
+}
+#serviceImg:hover {
+    transform: scale(1.2);
+   
+}
+.collection-box{
+    margin-left: 100px;
+    
+}
+
+.collections{
+    background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)) ,url('../../../../images/jordan.jpg');
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ background-attachment: fixed;
+}
+.addCart{
+    width: 100px;
+    border: none;
+    background-color: goldenrod;
+    border-radius: 20px;
+    color: white;
+}
+
+#btn{
+   
+
+        width: 200px;
+        padding: 15px 0;
+        text-align: center;
+        margin: 20px 10px;
+        border-radius: 25px;
+        font-weight: bold;
+        font-size: 15px;
+        border: 2px solid red;
+        background: darkred;
+        cursor: pointer;
+        color: white;
+        position: relative;
+        overflow: hidden;
+      
+        
+}
+#btn:hover{
+   
+
+   font-size: 20px;
+  
+    
+}
+.cInfo{
+font-size: 15px;
+font-weight: 700;
+}
+
+
+
+#card > p >small{
+    font-weight: 700;
+}
+
+
+#content-wrapper{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    overflow: hidden;
+}
+
+.collection-column{
+	width:100%;
+	padding: 10px;
+
+}
+
+
+
+.thumbnail{
+	object-fit: cover;
+	max-width: 180px;
+	max-height: 100px;
+	cursor: pointer;
+	opacity: 0.5;
+	margin: 5px;
+	border: 2px solid black;
+
+}
+
+.thumbnail:hover{
+	opacity:1;
+}
+
+.active{
+	opacity: 1;
+}
+
+#collection-slide-wrapper{
+	max-width: 100%;
+	display: flex;
+	align-items: center;
+    justify-content: space-between;
+}
+
+#slider{
+	width: 100%;
+	display: flex;
+    overflow: hidden;
+
+}
+
+#slider::-webkit-scrollbar {
+		width: 8px;
+
+}
+
+#slider::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+
+}
+ 
+#slider::-webkit-scrollbar-thumb {
+ 
+  outline: 1px solid slategrey;
+   border-radius: 100px;
+
+}
+
+#slider::-webkit-scrollbar-thumb:hover{
+   
+}
+
+.arrow{
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.arrow:hover{
+	opacity: .5;
+	width: 35px;
+	height: 35px;
+}

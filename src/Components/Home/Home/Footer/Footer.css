@@ -1,0 +1,19 @@
+.footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+.footer-box{
+    width: 80%;
+    margin: auto;
+}
+
+@media(max-width:767px){
+
+    .footer{
+        
+        grid-template-columns: repeat(1, 1fr);
+       
+    }   
+}
